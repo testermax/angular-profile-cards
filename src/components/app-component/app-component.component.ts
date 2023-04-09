@@ -6,6 +6,7 @@ import { ProfileCard3Component } from '../profile-card3/profile-card3.component'
 import { ProfileCard4Component } from '../profile-card4/profile-card4.component';
 import { ProfileCard5Component } from '../profile-card5/profile-card5.component';
 import { ProfileChip2Component } from '../profile-chip2/profile-chip2.component';
+import { ProfileChip3Component } from '../profile-chip3/profile-chip3.component';
 
 @Component({
   selector: 'app-root',
@@ -17,7 +18,8 @@ import { ProfileChip2Component } from '../profile-chip2/profile-chip2.component'
     ProfileCard3Component,
     ProfileCard4Component,
     ProfileCard5Component,
-    ProfileChip2Component
+    ProfileChip2Component,
+    ProfileChip3Component
   ],
   templateUrl: './app-component.component.html',
   styleUrls: ['./app-component.component.css'],
