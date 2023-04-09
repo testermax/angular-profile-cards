@@ -1,0 +1,94 @@
+.chip {
+  display: flex;
+  position: relative;
+  max-width: 400px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+  border: 1px solid gray;
+
+  &:hover {
+    transition: 0.3s;
+    transform: scale(1.03);
+  }
+}
+
+.img-avatar {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid gray;
+  top: -9px;
+  left: -2px;
+  img {
+    width: 100%;
+    border-radius: inherit;
+  }
+}
+
+.status {
+  width: 12px;
+  height: 12px;
+  border: 3px solid gray;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: rgb(33, 34, 35);
+}
+.active {
+  background-color: rgb(48, 249, 75);
+}
+.away {
+  background-color: rgb(249, 202, 48);
+}
+.sick {
+  background-color: rgb(197, 176, 176);
+}
+
+.container {
+  display: flex;
+  margin-left: 80px;
+  // padding: 2.5px;
+  .texts {
+    padding: 2.5px;
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+    h3 {
+      margin: 0;
+    }
+    .desc {
+      color: gray;
+      font-size: 12px;
+    }
+    .planned {
+      margin-top: 2.5px;
+      margin-bottom: 2.5px;
+
+      color: gray;
+      font-size: 10px;
+    }
+  }
+}
+
+button {
+  border: none;
+  background: none;
+  width: 45px;
+  font-size: 24px;
+  color: #8bc34a;
+  cursor: pointer;
+  // transition: 0.5s;
+  transition: 0.3s;
+  &:hover {
+    color: #4caf50;
+    // transform: rotate(22deg)
+    transform: scale(1.2);
+  }
+}
+
+.vertical-line {
+  border-left: 1px solid gray;
+  // height: 100%; /* Set the height of the line */
+}

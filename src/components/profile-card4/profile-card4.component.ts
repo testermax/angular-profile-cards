@@ -13,8 +13,4 @@ export class ProfileCard4Component implements OnInit {
   ngOnInit() {
 
   }
-
-
-  
-
 }
