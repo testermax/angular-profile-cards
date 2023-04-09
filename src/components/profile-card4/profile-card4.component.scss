@@ -34,7 +34,6 @@
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   padding-top: 1rem;
-  // padding: 0.5rem 1rem 0rem 1rem;
 }
 
 .img-avatar {
@@ -65,7 +64,7 @@
   height: 100%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-image: url('https://pixabay.com/get/g174ea1da59ee3666d71ffe96ec77ed70a51a482586294220064447b4ee91d20be8a1149f8baa4aeac458d2f56e6144df475f5bc98a57ea2e817e1543861f3c33819fafde822dc218f4f6a6ba16e88081_640.jpg');
+  background-image: url('https://pixabay.com/get/g572d936bd7801cb1b3cbaed6462bb0bcaefa981092feffae936fb6d9bf92eefb8b1f6c66f9287cefe162f8f6f5f4a84d330c05fdff8f5c130a1d6a6a9cfb6b180abe97b68bfe11bd31e74c133eaa0ad3_640.jpg');
   background-position: bottom center;
   background-size: cover;
 }
@@ -77,12 +76,11 @@ button {
   font-size: 24px;
   color: #8bc34a;
   cursor: pointer;
-  // transition: 0.5s;
   transition: 0.3s;
   &:hover {
     color: #4caf50;
-    // transform: rotate(22deg)
-    transform: scale(1.2);
+    transform: rotate(22deg);
+    // transform: scale(1.2);
   }
 }
 
@@ -94,7 +92,6 @@ button {
   position: absolute;
   right: -8px;
   top: 0px;
-  // transform: translate(40%, -40%);
   background-color: rgb(33, 34, 35);
 }
 .active {

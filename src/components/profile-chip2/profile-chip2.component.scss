@@ -49,7 +49,6 @@
 .container {
   display: flex;
   margin-left: 80px;
-  // padding: 2.5px;
   .texts {
     padding: 2.5px;
     display: flex;
@@ -79,16 +78,14 @@ button {
   font-size: 24px;
   color: #8bc34a;
   cursor: pointer;
-  // transition: 0.5s;
   transition: 0.3s;
   &:hover {
     color: #4caf50;
-    // transform: rotate(22deg)
-    transform: scale(1.2);
+    transform: rotate(22deg);
+    // transform: scale(1.2);
   }
 }
 
 .vertical-line {
   border-left: 1px solid gray;
-  // height: 100%; /* Set the height of the line */
 }

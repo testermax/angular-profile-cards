@@ -37,7 +37,6 @@
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   padding-top: 1rem;
-  // padding: 0.5rem 1rem 0rem 1rem;
 }
 
 .img-avatar {
@@ -64,12 +63,11 @@
 }
 
 .card-image {
-  // width: 100%;
   width: 150px;
   height: 100%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-  background-image: url('https://pixabay.com/get/gf83f6f540eacbc0fbde90edf99fb8ff392f58b61f663781c769db8dda76874f4183c1b4139f78121972197e94f5b6f0a7bbac2990aa7ce11e93c6cb9fbf334c1c21eb0751ec066556a6a91eb7f1c5679_640.jpg');
+  background-image: url('https://pixabay.com/get/g41225b0bd343ff8ae5118f838c83c188c33fe1a06e600e82d4b5b4b7925ef6b51f8c8ee83ba54c761af2e5140456d2608af8c2fe72947e61ceb51069b794637820bb62c4883b20826703af398ddb43d3_640.jpg.jpg');
   background-position: bottom center;
   background-size: cover;
 }
@@ -81,12 +79,11 @@ button {
   font-size: 24px;
   color: #8bc34a;
   cursor: pointer;
-  // transition: 0.5s;
   transition: 0.3s;
   &:hover {
     color: #4caf50;
-    // transform: rotate(22deg)
-    transform: scale(1.2);
+    transform: rotate(22deg);
+    // transform: scale(1.2);
   }
 }
 
