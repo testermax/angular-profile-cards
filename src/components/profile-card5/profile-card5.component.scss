@@ -29,8 +29,13 @@
 }
 .card .desc {
   color: gray;
-  padding: 0.5rem 1rem;
+  padding: 0.3rem 1rem;
   font-size: 12px;
+}
+.planned {
+  padding: 0.0rem 1rem;
+  color: gray;
+  font-size: 10px;
 }
 .card .actions {
   display: grid;
